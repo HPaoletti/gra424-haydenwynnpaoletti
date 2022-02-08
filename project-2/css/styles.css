@@ -38,6 +38,19 @@ p{
     grid-column: main;
 }
 
+.sample {
+    padding: 5rem 0;
+}
+
+footer{
+    background-color: var(--gray-light);
+    padding: 1.5rem 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
 header {
     background-color: var(--gray-dark);
     padding: 1rem 0;
