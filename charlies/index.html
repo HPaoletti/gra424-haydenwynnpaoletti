@@ -21,43 +21,44 @@
 </head>
 
 <body>
-  <!--Header-->
-  <header>
+
+  
+  <header> <!--Header-->
     <nav>
-     <a href="_____"> 
+     <a href="index.html"> 
           <img src="img/Charlies-Assets-01.png" alt="Charlie's Logo" class="center" width="200px" height="200 px">
     </a>
     </nav>
   </header>
 
+ <!--Hero-Img-And-Text-->
+
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Coffee</h1>
+      <h1>Cup Above the Rest</h1>
       <p>Charlie's Café, one of Sun Devil Dining’s local restaurant partners, brings the taste of Europe to ASU! Proudly serving Firecreek Coffee and featuring fresh European sandwiches and baked goods. Come experience the difference! With three locations on campus, there is always a Charlie's Cafe near! Charlie’s Café is located at the Hayden Library, Bio Design B Building and the College of Design.</p>
     </div>
   </div>
 
-  <!--Menu-->
-  <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'All')">All</button>
-    <button class="tablinks" onclick="openCity(event, 'ColdDrinks')">Cold Drinks</button>
-    <button class="tablinks" onclick="openCity(event, 'HotDrinks')">Hot Drinks</button>
-    <button class="tablinks" onclick="openCity(event, 'Tea')">Hot & Iced Teas</button>
-    <button class="tablinks" onclick="openCity(event, 'Food')">Specialty Sandwiches</button>
-  </div>
-  
-    <div id="All" class="tabcontent">
-     
-     
+
+ <section><!--Menu-->
+  <h1>Our Menu</h1>
+
+    <div class="tab"> <!--Menu-Buttons-->
+      <button class="tablinks" id="preselected" onclick="openCity(event, 'All')">All</button>
+      <button class="tablinks" onclick="openCity(event, 'ColdDrinks')">Cold Drinks</button>
+      <button class="tablinks" onclick="openCity(event, 'HotDrinks')">Hot Drinks</button>
+      <button class="tablinks" onclick="openCity(event, 'Tea')">Hot & Iced Teas</button>
+      <button class="tablinks" onclick="openCity(event, 'Food')">Specialty Sandwiches</button>
     </div>
-    
-    <div id="ColdDrinks" class="tabcontent">
-     
+
+    <!--Menu-Lists-->
+    <div id="All" class="tabcontent">
       <div id="foodcontainer" class="foodcontainer">
         <h3>Coffee</h3>
         <p>$2.75  -    -</p>
       </div>
-     
+    
       <div id="foodcontainer" class="foodcontainer">
         <h3>Americano</h3>
         <p>$2.00  $2.50  $3.25</p>
@@ -97,15 +98,12 @@
         <h3>Iced Mocha</h3>
         <p>wow</p>
       </div>
-    </div>
-    
-    <div id="HotDrinks" class="tabcontent">
-     
+
       <div id="foodcontainer" class="foodcontainer">
         <h3>Drip Coffee</h3>
         <p>$2.15 $2.50 $2.75</p>
       </div>
-     
+    
       <div id="foodcontainer" class="foodcontainer">
         <h3>Espresso</h3>
         <p>$2.25  $2.75  $3.20</p>
@@ -181,17 +179,11 @@
         <p>London</p>
       </div>
 
-
-
-    </div>
-    
-    <div id="Tea" class="tabcontent">
-    
       <div id="foodcontainer" class="foodcontainer">
         <h3>Jasmine Tea</h3>
         <p>$2.50  -   -</p>
       </div>
-     
+    
       <div id="foodcontainer" class="foodcontainer">
         <h3>Black Tea</h3>
         <p>$2.50  -   -</p>
@@ -217,16 +209,12 @@
         <p>$2.50  -   </p>
       </div>
 
-    </div>
-    
-    <div id="Food" class="tabcontent">
-     
       <div id="foodcontainer" class="foodcontainer">
         <h3>Italiano</h3>
         <p>A Grilled baguette with prosciutto, mozzarella, sliced tomato, basil pesto, and a touch of balsamic vinegar
         </p>
       </div>
-     
+    
       <div id="foodcontainer" class="foodcontainer">
         <h3>Seville</h3>
         <p>A Grilled baguette with Spanish chorizo, mozzarella, sliced tomato, roasted red pepper, sun dried tomato pesot, and a touch of balsamic vinegar
@@ -252,29 +240,253 @@
       </div>
 
       <div id="foodcontainer" class="foodcontainer">
-        <h3>mediterranean chicken</h3>
+        <h3>Mediterranean chicken</h3>
         <p>A Grilled focaccia with spiced chicken breast, mozzarella, roasted red peppers, sliced tomato, and sun dried tomato pesto
         </p>
       </div>
 
     </div>
-
-    <footer class="grid">
-      <div class="company"> 
-        <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><img src="img/Charlies-Assets-01.png" alt="Charlie's Logo" class="center" width="200" height="200"></a>
-        <div class="center" id="social"><!--Links to Social Media accounts-->
-                <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><img src="img/SM/Instagram.png" class="sociallogo" alt="Instagram Logo" onmouseover="this.src='img/SM/OnHover/Instagram.png'" onmouseout="this.src='img/SM/Instagram.png'"></a>
-                <a href="https://twitter.com/HaydenPaoletti" target="_blank"><img src="img/SM/Twitter.png" class="sociallogo" alt="Twitter Logo" onmouseover="this.src='img/SM/OnHover/Twitter.png'" onmouseout="this.src='img/SM/Twitter.png'"></a>
-                <a href="https://www.behance.net/haydenpaoletti" target="_blank"><img src="img/SM/Facebook.png" class="sociallogo" alt="FaceBook Logo" onmouseover="this.src='img/SM/OnHover/Facebook.png'" onmouseout="this.src='img/SM/Facebook.png'"></a>
-                <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><img src="img/SM/YouTube.png" class="sociallogo" alt="Youtube Logo" onmouseover="this.src='img/SM/OnHover/YouTube.png'" onmouseout="this.src='img/SM/Youtube.png'"></a>
+      
+    <div id="ColdDrinks" class="tabcontent">
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Coffee</h3>
+          <p>$2.75  -    -</p>
         </div>
-      </div>
-      <p>&copy; 2022 Charlie's Cafe</p>
-      <p>Designed and Coded by Hayden Wynn Paoletti</p>
-    </footer>
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>$2.00  $2.50  $3.25</p>
+        </div>
 
-  <!-- Load Scripts -->
-  <script src="js/scripts.js"></script>
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Iced latte</h3>
+          <p>$3.55  $3.95  $3.35</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Iced Mocha</h3>
+          <p>$3.75  $4.25  $5.00</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Mocha Frappe</h3>
+          <p> - $4.50  $5.50</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Thai Cappuccino</h3>
+          <p>- $4.25 -</p>
+        </div>
+        
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Iced Mocha</h3>
+          <p>wow</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Iced Mocha</h3>
+          <p>wow</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Iced Mocha</h3>
+          <p>wow</p>
+        </div>
+    </div>
+      
+    <div id="HotDrinks" class="tabcontent">
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Drip Coffee</h3>
+          <p>$2.15 $2.50 $2.75</p>
+        </div>
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Espresso</h3>
+          <p>$2.25  $2.75  $3.20</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Macchiato</h3>
+          <p>$2.35  $2.85  $3.35</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>$2.00  $2.50  $3.25</p>
+        </div>
+        
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Cappuccino</h3>
+          <p>$2.95  $3.50  $4.25</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Caffe Latte</h3>
+          <p>$3.55  $3.95  $4.75</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Caffe Mocha</h3>
+          <p>$3.75  $4.45  $5.05</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Caramel Macchiato</h3>
+          <p>$3.75  $4.45  $5.05</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Hot Chocolate</h3>
+          <p>$3.25  $3.75  $4.25</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Chai</h3>
+          <p>$3.25  $3.95  $4.25</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>London</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>London</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>London</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>London</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>London</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Americano</h3>
+          <p>London</p>
+        </div>
+
+
+
+    </div>
+      
+    <div id="Tea" class="tabcontent">
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Jasmine Tea</h3>
+          <p>$2.50  -   -</p>
+        </div>
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Black Tea</h3>
+          <p>$2.50  -   -</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Osmanthius Oolong Tea</h3>
+          <p>$2.50  -   -</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Wintermelon Tea</h3>
+          <p>$2.50  -   -</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Wintermelon Tea</h3>
+          <p>$2.50  -   -</p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Shaken Fruit Tea</h3>
+          <p>$2.50  -   </p>
+        </div>
+
+    </div>
+      
+    <div id="Food" class="tabcontent">
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Italiano</h3>
+          <p>A Grilled baguette with prosciutto, mozzarella, sliced tomato, basil pesto, and a touch of balsamic vinegar
+          </p>
+        </div>
+      
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Seville</h3>
+          <p>A Grilled baguette with Spanish chorizo, mozzarella, sliced tomato, roasted red pepper, sun dried tomato pesot, and a touch of balsamic vinegar
+          </p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Milano</h3>
+          <p>A Grilled baguette with prosciutto, salami, ham, mozzarella, sliced tomato, pepperoncini, basil pesto, and a touch of balsamic vinegar
+          </p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Caprese</h3>
+          <p>A Grilled baguette with mozzarella, sliced tomato, fresh basil (when available), basil pesto, and a touch of balsamic vinegar
+          </p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Vegetarian Panini</h3>
+          <p>A Grilled herb focaccia with mozzarella, feta cheese, roasted red peppers, marinated artichoke, tomato, red onion, and finished with basil pesto
+          </p>
+        </div>
+
+        <div id="foodcontainer" class="foodcontainer">
+          <h3>Mediterranean chicken</h3>
+          <p>A Grilled focaccia with spiced chicken breast, mozzarella, roasted red peppers, sliced tomato, and sun dried tomato pesto
+          </p>
+        </div>
+
+    </div>
+
+  </section>
+
+  <section class="location"> <!--Location-->
+    <h1>Your Nearest Charlie's</h1>
+    <img src="img/tempe_maps_website_charlies_cafe-01.jpeg" alt="Map Of Charlies" class="center">
+  </section>
+
+
+
+      <footer>
+        <div> 
+          <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><img src="img/Charlies-Assets-01.png" alt="Charlie's Logo" class="center" width="200" height="200"></a>
+          <div id="social" class=""><!--Links to Social Media accounts-->
+                  <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><img src="img/SM/Instagram.png" class="sociallogo" alt="Instagram Logo" onmouseover="this.src='img/SM/OnHover/Instagram.png'" onmouseout="this.src='img/SM/Instagram.png'"></a>
+                  <a href="https://twitter.com/HaydenPaoletti" target="_blank"><img src="img/SM/Twitter.png" class="sociallogo" alt="Twitter Logo" onmouseover="this.src='img/SM/OnHover/Twitter.png'" onmouseout="this.src='img/SM/Twitter.png'"></a>
+                  <a href="https://www.behance.net/haydenpaoletti" target="_blank"><img src="img/SM/Facebook.png" class="sociallogo" alt="FaceBook Logo" onmouseover="this.src='img/SM/OnHover/Facebook.png'" onmouseout="this.src='img/SM/Facebook.png'"></a>
+                  <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><img src="img/SM/YouTube.png" class="sociallogo" alt="Youtube Logo" onmouseover="this.src='img/SM/OnHover/YouTube.png'" onmouseout="this.src='img/SM/Youtube.png'"></a>
+          </div>
+            <div>
+              <h3> Contact Us</h3>
+              <p>phone: 123 456 7890 <br> email: thisisanemail@gmail.com</p>
+          </div>
+        </div>
+        <br>
+        <br>
+        <p>&copy; 2022 Charlie's Cafe</p>
+        <p>Designed and Coded by Hayden Wynn Paoletti</p>
+      </footer>
+
+    <!-- Load Scripts -->
+    <script src="js/scripts.js">
+    </script>
 
 </body>
 
