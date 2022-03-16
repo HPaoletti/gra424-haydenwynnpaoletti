@@ -5,9 +5,12 @@ font-family: 'Playfair Display', serif;
 */
 
 html {
-    --gray: #444;
-    --gray-dark: #333;
-    --gray-light: #f2f2f2;
+    --coffee-dark: #582F0E;
+    --coffee-mid: #7F4F24;
+    --coffee-light: #936639;
+    --green-light: #656D4A;
+    --green-mid: #414833;
+    --green-dark: #333D29;
     --charlie-orange: #E2782F;
 }
 
@@ -21,12 +24,7 @@ header,footer {
   padding: 1rem 0;
 }
 
-li a:hover {
-    background-color: #111111;
-  }
-  
-  
-  /* Style the tab */
+  /* Style the tab 
 .tab {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
@@ -40,7 +38,7 @@ li a:hover {
   padding-right: 1rem;
 }
 
-  /* Style the buttons inside the tab */
+  /* Style the buttons inside the tab 
 .tab button {
   width: 100%;
   background-color: #fff;
@@ -53,19 +51,19 @@ li a:hover {
   font-size: 18px;
 }
 
-  /* Change background color of buttons on hover */
+  /* Change background color of buttons on hover 
 .tab button:hover {
   background-color: var(--charlie-orange);
   color: #fff;
 }
 
-  /* Create an active/current tablink class */
+  /* Create an active/current tablink class 
 .tab button.active {
   background-color: #333;
   color: #fff;
 }
 
-  /* Style the tab content */
+  /* Style the tab content 
 .tabcontent {
   display: none;
   padding: 6px 12px;
@@ -79,6 +77,8 @@ li a:hover {
   padding-top: 20px;
   padding-left: 10px;
 }
+*/
+
 section h1{
   text-align: left;
   position: relative;
@@ -88,14 +88,7 @@ section h1{
   
 }
 
-#social .sociallogo {
-  display: inline;
-  margin-right: auto;
-  margin-left: auto;
-  width: 60px;
-  height: 60px;
-  padding: 10px 10px 10px 10px;
-}
+
  
 .center {
   display: block;
@@ -125,6 +118,104 @@ section h1{
   color: white;
   
 }
+.item1 {
+  grid-area: header;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.item2 {
+  grid-area: map;
+  max-width: 30vw;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.item3 {
+  grid-area: location;
+  text-align: left;
+  margin-left: 30px;
+}
+.item4 {
+  grid-area: location;
+  text-align: left;
+  margin-top: 30px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+      "header header"
+      "map location";
+}
+
+table {
+  margin: 20px;
+  margin-top: 40px;
+}
+td {
+  padding-left: 15px;
+}
+
+/*
+.sgridhead{
+  grid-area: header;
+}
+.icongroup {
+  grid-area: icongroup;
+  display: inline;
+}
+.sgrid1{
+  grid-area: icon1;
+  width: 50px;
+  height: 50px;
+}
+.sgrid2{
+  grid-area: icon2;
+  width: 50px;
+  height: 50px;
+}
+.sgrid3{
+  grid-area: icon3;
+  width: 50px;
+  height: 50px;
+}
+.sgrid4{
+  grid-area: icon4;
+  width: 50px;
+  height: 50px;
+} 
+.socialgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header . . ."
+        "icongroup . sgrid5 sgrid5"
+        "by by by . . . . . . . ";
+}
+*/
+
+h2{
+  text-align: left;
+  position: relative;
+  padding-left: 50px;
+  padding-left: 50px;
+}
+
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: left;
+}
+
 
 @media screen and (min-width: 800px) /*For Tablet*/{
   
