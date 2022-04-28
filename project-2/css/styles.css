@@ -9,6 +9,10 @@ body {
     font-weight: 300;
 }
 
+nav li {
+    display: inline;
+}
+    
 h1 {
     color: #fff;
     font-weight: 300;
