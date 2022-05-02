@@ -210,7 +210,7 @@ a.working{
 
 .finalImg{
   display: block;
-  margin-left: auto;
+  
   margin-right: auto;
   width: 50%;
   margin-bottom: 20px;
@@ -285,6 +285,7 @@ img.photoone{
 .text-container{
   float: right;
   display: flex;
+  padding-bottom: 10%;
 }
 .chat{
   padding-left: 2rem;
