@@ -1,0 +1,83 @@
+html {
+    --gray: #444;
+    --gray-dark: #333;
+    --gray-light: #f2f2f2;
+}
+
+header {
+    align-items: flex-end;
+    background-image: url("https://picsum.photos/1800/1200");
+    background-size: cover;
+    display: flex;
+    height: 40vh;
+    justify-content: flex-start;
+    padding: 3rem;
+    /* This is important, don't forget to add it to your container */
+    position: relative;
+  }
+  
+  /* This inserts a fake element and positions it behind the text. The 70% controls the point at which the color in the gradient transitions from transparent to partially black. You can tweak how seethrough the black is by adjusting the second rgba value. You can read more about controlling linear gradients here: https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient() */
+  header:after {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0),
+      60%,
+      rgba(0, 0, 0, 0.75)
+    );
+    content: " ";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  /* Make sure you add these two properties to your text container. This is what makes sure the text sits on top of the gradient instead of under it. */
+  .text-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* This is just me setting box-sizing and making the type bigger, don't worry about this. */
+  * {
+    box-sizing: border-box;
+  }
+  
+ .title {
+    color: #fff;
+    font-size: 32px;
+    text-align: left;
+  }
+  .title p {
+      padding-left: 3rem;
+  }
+
+.current-page{
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+  }
+  
+  .project-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+    margin: 3rem;
+  }
+  
+  footer{
+      display: grid;
+      gap:2rem;
+      grid-template-columns: 1fr 1fr;
+      margin: 5rem;
+  }
+
+  .centered-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  

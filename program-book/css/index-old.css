@@ -1,0 +1,99 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+html {
+    --gray: #444;
+    --gray-dark: #333;
+    --grey: #f2f2f2;
+    --blue: #001489;
+}
+body {
+  background-color: var(--grey);
+}
+
+.menu {
+  background: var(--grey);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-left {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 500;
+    font-size: 40px;
+    margin: 15px 0 0;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: .4s ease;
+    transition: .4s ease;
+}
+.nav-right {
+  font-family: 'Libre Franklin', sans-serif;
+  float: left;
+  text-align: left;  
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+
+
+.button {
+  color: #242e64;
+  display: inline-block;
+  font-size: 21px;
+  padding: 1rem;
+}
+
+a:visited {
+  color: #242e64;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: #242e64;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 737px) {
+.nav-right {
+  font-family: 'Libre Franklin', sans-serif;
+  float: right;
+  text-align: right;  
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  }
+  .nav-left {
+    color: #000;
+    font-size: 60px;
+    margin: 15px 0 0;
+    text-decoration: none;
+    display: block;
+    -webkit-transition: .4s ease;
+    transition: .4s ease;
+}
+
+.bg-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 652px;
+  height: 280px;
+  background: url(../img/Paoletti3D-2.png) no-repeat 50%/contain;
+  text-indent: 110%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: logo-data-v-603eefba 3s ease infinite alternate;
+}
+}
