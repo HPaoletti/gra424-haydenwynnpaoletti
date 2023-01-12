@@ -1,0 +1,69 @@
+html, body { height: 100%; }
+
+.wrapper1{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+
+}
+
+.box-1 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.5px solid black;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+}
+
+.box-2 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.5px solid black;
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+}
+
+.box-3 {
+    display: flex;
+    background: rgb(0, 0, 0);
+    width: 14vw;
+    height: 14vh;
+    margin: auto;
+}
+
+.wrapper2{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+
+}
+
+.box-12 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.5px solid black;
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+}
+
+.box-22 {
+    display: flex;
+    background: rgb(0, 0, 0);
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+}
+
+.box-32 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border: solid;
+    width: 14vw;
+    height: 14vh;
+    margin: auto;
+}
