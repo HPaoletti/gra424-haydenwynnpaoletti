@@ -1,0 +1,58 @@
+html, body {
+overflow: hidden; 
+}
+
+.page{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.board {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.25px solid rgb(150, 150, 150);
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
+.linebox {
+    display: flex;
+    position: absolute;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+    background-color: rgb(255, 255, 255);
+}
+
+/* 28.571428*/
+
+.line{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 2.6vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.line-inside{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 2.6vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-left: 0;
+}
+
+.line-outside{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 2.6vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-right: 0;
+}

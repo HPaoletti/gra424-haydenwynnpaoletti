@@ -1,4 +1,5 @@
-html, body { height: 100%; }
+html, body { height: 100%;
+overflow: hidden; }
 
 .wrapper1{
     display: flex;
@@ -129,19 +130,8 @@ html, body { height: 100%; }
     margin-right: 0;
 }
 
-.inside-white {
-    display: flex;
-    position: absolute;
-    margin-left: 28.571428vw;
-    margin-top: 28.571428vh;
-    width: 14.285714vw;
-    height: 14.285714vh;
-    background-image: url(/424/project-1/img/LineInteracton-02.png);
-    background-size: cover;
-    z-index: 1;
-}
 
-/* .line-white{
+.line-white{
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 1.2vw;
@@ -165,4 +155,4 @@ html, body { height: 100%; }
     height: 14.285714vh;
     margin: auto;
     margin-right: 0;
-} */
+}
