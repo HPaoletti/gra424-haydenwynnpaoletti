@@ -35,7 +35,7 @@ html, body {
 .line{
     display: flex;
     background-color: rgb(0, 0, 0);
-    width: 2.6vw;
+    width: 2.5vw;
     height: 42.857143vh;
     margin: auto;
 }
@@ -43,7 +43,7 @@ html, body {
 .line-inside{
     display: flex;
     background-color: rgb(0, 0, 0);
-    width: 2.6vw;
+    width: 2.5vw;
     height: 42.857143vh;
     margin: auto;
     margin-left: 0;
@@ -52,7 +52,7 @@ html, body {
 .line-outside{
     display: flex;
     background-color: rgb(0, 0, 0);
-    width: 2.6vw;
+    width: 2.5vw;
     height: 42.857143vh;
     margin: auto;
     margin-right: 0;
@@ -71,7 +71,7 @@ html, body {
 .line-white{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: .9vw;
+    width: 1vw;
     height: 14.285714vh;
     margin: auto;
 }
@@ -79,7 +79,7 @@ html, body {
 .line-inside-white{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: .9vw;
+    width: 1vw;
     height: 14.285714vh;
     margin: auto;
     margin-left: 0;
@@ -88,8 +88,45 @@ html, body {
 .line-outside-white{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: .9vw;
+    width: 1vw;
     height: 14.285714vh;
+    margin: auto;
+    margin-right: 0;
+}
+
+
+.linebox3 {
+    display: flex;
+    position: absolute;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+
+}
+
+.line3{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 6.25vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.line-inside3{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 6.25vw;
+    height: 42.857143vh;
+    margin: auto;
+    margin-left: 0;
+}
+
+.line-outside3{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 6.25vw;
+    height: 42.857143vh;
     margin: auto;
     margin-right: 0;
 }
