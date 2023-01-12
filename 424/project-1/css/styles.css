@@ -12,8 +12,8 @@ html, body { height: 100%; }
     display: flex;
     background: rgb(255, 255, 255);
     border:.5px solid black;
-    width: 70vw;
-    height: 70vh;
+    width: 71.428571vw;
+    height: 71.428571vh;
     margin: auto;
 }
 
@@ -21,16 +21,16 @@ html, body { height: 100%; }
     display: flex;
     background: rgb(255, 255, 255);
     border:.5px solid black;
-    width: 40vw;
-    height: 40vh;
+    width: 42.857143vw;
+    height: 42.857143vh;
     margin: auto;
 }
 
 .box-3 {
     display: flex;
     background: rgb(0, 0, 0);
-    width: 14vw;
-    height: 14vh;
+    width: 14.285714vw;
+    height: 14.285714vh;
     margin: auto;
 }
 
@@ -46,16 +46,16 @@ html, body { height: 100%; }
     display: flex;
     background: rgb(255, 255, 255);
     border:.5px solid black;
-    width: 70vw;
-    height: 70vh;
+    width: 71.428571vw;
+    height: 71.428571vh;
     margin: auto;
 }
 
 .box-22 {
     display: flex;
     background: rgb(0, 0, 0);
-    width: 40vw;
-    height: 40vh;
+    width: 42.857143vw;
+    height: 42.857143vh;
     margin: auto;
 }
 
@@ -63,7 +63,7 @@ html, body { height: 100%; }
     display: flex;
     background: rgb(255, 255, 255);
     border: solid;
-    width: 14vw;
-    height: 14vh;
+    width: 14.285714vw;
+    height: 14.285714vh;
     margin: auto;
 }
