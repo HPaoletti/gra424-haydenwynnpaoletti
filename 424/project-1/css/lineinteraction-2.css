@@ -61,35 +61,33 @@ html, body {
 .linebox2 {
     display: flex;
     position: absolute;
-    width: 14.2857vw;
-    height: 14.2857vh;
-    margin-left: 28.571428vw;
-    margin-top: 28.571428vh;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin-left: 14.285714vw;
+    margin-top: 14.285714vh;
 
+    clip-path: inset(14.285714vh 14.285714vw 14.285714vh 14.285714vw);
+
+}
+
+#lineleft{
+    margin-left: 2.6vw;
+}
+
+#lineright{
+    margin-right: 2.6vw;
 }
 
 .line-white{
     display: flex;
     background-color: rgb(255, 255, 255);
-    width: .9vw;
-    height: 14.285714vh;
-    margin: auto;
+    width: 1.06vw;
+    height: 42.857143vh;
+    margin-top: 0;
+    margin-right: 1.3vw;
+    margin-bottom: 0;
+    margin-left: 1.3vw;
+
+    scale: 2;
 }
 
-.line-inside-white{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    width: .9vw;
-    height: 14.285714vh;
-    margin: auto;
-    margin-left: 0;
-}
-
-.line-outside-white{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    width: .9vw;
-    height: 14.285714vh;
-    margin: auto;
-    margin-right: 0;
-}
