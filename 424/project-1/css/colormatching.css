@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    overflow: hidden; 
+
+    --size71width: 71.428571vw;
+    --size71height: 71.428571vh;
+    --size42width: 42.857143vw;
+    --size42height: 42.857143vh;
+    --size14width: 14.2857vw;
+    --size14height: 14.2857vh;
+    --blackline: 2.57082vw;
+    --whiteline: 1.45782vw;
+    --blackhalf: 1.28541vw;
+    --tinysquareheight: 7.14285716667vh;
+    --tinysquarewidth: 7.14285716667vw;
+}
+
+.page{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.board {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.25px solid rgb(150, 150, 150);
+    width: var(--size71width);
+    height: var(--size71height);
+    margin: auto;
+}
+
+.colorbox {
+    display: flex;
+    position: absolute;
+    width: var(--size42width);
+    height: var(--size42height);
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+    flex-wrap: wrap;
+}
+
+.hoverbox {
+    display: flex;
+    position: absolute;
+    width: var(--size42width);
+    height: var(--size42height);
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+    z-index: 1;
+}
+
+/* for showing the img */
+.hoverbox img{
+    width: var(--size42width);
+    height: var(--size42height);
+    opacity: 0;
+    object-fit: fill;
+    
+}
+
+/* hover appear */
+.hoverbox img:hover{
+    opacity: 1;
+}
+
+.tinybox{
+    display: flex;
+    width: var(--tinysquarewidth);
+    height: var(--tinysquareheight);
+    margin: 0;
+    background-color: beige;
+}
+
+/* color1 top left */
+#box1, #box2, #box7, #box8{
+    background-color: rgb(128, 130, 61);
+}
+
+/* color2 top mid */
+#box3, #box4, #box9, #box10{
+    background-color: rgb(244, 237, 110);
+}
+
+/* color3 top right */
+#box5, #box6, #box11, #box12{
+    background-color: rgb(184, 36, 52);
+}
+
+/* color4 mid left */
+#box13, #box14, #box19, #box20{
+    background-color: rgb(216, 125, 59);
+}
+
+/* color5 mid mid */
+#box15, #box16, #box21, #box22{
+    background-color: rgb(51, 91, 90);
+}
+
+/* color6 mid right */
+#box17, #box18, #box23, #box24{
+    background-color: rgb(85, 75, 63);
+}
+
+/* color7 bot left */
+#box25, #box26, #box31, #box32{
+    background-color: rgb(151, 184, 223);
+}
+
+/* color8 bot mid */
+#box27, #box28, #box33, #box34{
+    background-color: rgb(99, 171, 222);
+}
+
+/* color8 bot right */
+#box29, #box30, #box35, #box36{
+    background-color: rgb(45, 27, 72);
+}
+
+

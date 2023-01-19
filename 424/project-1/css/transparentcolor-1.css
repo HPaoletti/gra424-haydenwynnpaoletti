@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    overflow: hidden; 
+
+    --size71width: 71.428571vw;
+    --size71height: 71.428571vh;
+    --size42width: 42.857143vw;
+    --size42height: 42.857143vh;
+    --size14width: 14.2857vw;
+    --size14height: 14.2857vh;
+    --blackline: 2.57082vw;
+    --whiteline: 1.45782vw;
+    --blackhalf: 1.28541vw;
+    --tinysquareheight: 7.14285716667vh;
+    --tinysquarewidth: 7.14285716667vw;
+}
+
+.page{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.board {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.25px solid rgb(150, 150, 150);
+    width: var(--size71width);
+    height: var(--size71height);
+    margin: auto;
+}
+
+.colorbox {
+    display: flex;
+    position: absolute;
+    width: var(--size42width);
+    height: var(--size42height);
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.tinybox{
+    display: flex;
+    width: var(--tinysquarewidth);
+    height: var(--tinysquareheight);
+    margin: 0;
+    background-color: beige;
+}
+
+/* color1  */
+#box1, #box2, #box7, #box8, #box3, #box4, #box9, #box10, #box13, #box14, #box19, #box20{
+    background-color: rgb(15, 111, 144);
+}
+
+
+/* white space */
+#box5, #box6, #box11, #box12{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* color on top */
+#box15, #box16, #box21, #box22{
+    background-color: rgb(104, 113, 156);
+}
+
+/* color 2*/
+#box17, #box18, #box23, #box24, #box27, #box28, #box33, #box34, #box29, #box30, #box35, #box36{
+    background-color: rgb(236, 72, 68);
+}
+
+/* white space */
+#box25, #box26, #box31, #box32{
+    background-color: rgb(255, 255, 255);
+}
+
+
+

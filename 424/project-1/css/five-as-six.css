@@ -1,0 +1,159 @@
+html, body {
+    margin: 0;
+    overflow: hidden; 
+
+    --size71width: 71.428571vw;
+    --size71height: 71.428571vh;
+    --size42width: 42.857143vw;
+    --size42height: 42.857143vh;
+    --size14width: 14.2857vw;
+    --size14height: 14.2857vh;
+    --blackline: 2.57082vw;
+    --whiteline: 1.45782vw;
+    --blackhalf: 1.28541vw;
+    --tinysquareheight: 7.14285716667vh;
+    --tinysquarewidth: 7.14285716667vw;
+}
+
+.page{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.board {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.25px solid rgb(150, 150, 150);
+    width: var(--size71width);
+    height: var(--size71height);
+    margin: auto;
+}
+
+.colorbox {
+    display: flex;
+    position: absolute;
+    width: var(--size42width);
+    height: var(--size42height);
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+    flex-wrap: wrap;
+}
+
+.tinybox{
+    display: flex;
+    width: var(--tinysquarewidth);
+    height: var(--tinysquareheight);
+    margin: 0;
+    background-color: beige;
+}
+
+/*  */
+
+.hoverbox {
+    display: flex;
+    position: absolute;
+    width: var(--size42width);
+    height: var(--size42height);
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
+    z-index: 1;
+}
+
+.hoverbox .hoverwrap{
+    display: flex;
+    position: absolute;
+    width: var(--size42width);
+    height: var(--size42height);
+    flex-wrap: wrap;
+    opacity: 0;
+    
+}
+
+.tinyhoverbox{
+    display: flex;
+    width: var(--tinysquarewidth);
+    height: var(--tinysquareheight);
+    margin: 0;
+    background-color: rgb(132, 0, 0);
+}
+
+/* hover appear */
+.hoverbox .hoverwrap:hover{
+    opacity: 1;
+}
+
+/* 1 */
+#box1, #box2, #box3, 
+#box7, #box8, #box9, 
+#box13, 
+#box19, 
+#box25, #box26, #box27, 
+#box31, #box32, #box33{
+    background-color: rgb(22, 81, 159);
+}
+
+/* 2 */
+#box14, #box15,
+#box20, #box21,
+#box16, #box17,
+#box22, #box23{
+    background-color: rgb(111, 83, 97);
+}
+
+/* 3 */
+#box4, #box5, #box6, 
+#box10, #box11, #box12, 
+#box18, 
+#box24,
+#box28, #box29, #box30, 
+#box34, #box35, #box36{
+    background-color: rgb(247, 147, 29);
+}
+
+/* when hover */
+
+/* 1 */
+#box01, #box02, #box03, 
+#box07, #box08, #box09, 
+#box013, 
+#box019, 
+#box025, #box026, #box027, 
+#box031, #box032, #box033{
+    background-color: rgb(22, 81, 159);
+}
+/* 2 */
+#box014, #box015,
+#box020, #box021,
+#box016, #box017,
+#box022, #box023{
+    background-color: rgb(111, 83, 97);
+}
+
+/* 3 */
+#box04, #box05, #box06, 
+#box010, #box011, #box012, 
+#box018, 
+#box024,
+#box028, #box029, #box030, 
+#box034, #box035, #box036{
+    background-color: rgb(247, 147, 29);
+}
+
+/* overwrite flaps */
+/* code written by Hayden Paoletti dont steal my shit. */
+/* 4 */
+#box03, #box09, #box015, #box021, #box027, #box033{
+    background-color: rgb(22, 56, 96);
+}
+/* 5 */
+#box04, #box010, #box016, #box022, #box028, #box034{
+    background-color: rgb(251, 188, 96);
+}
+
+
+
+
+
