@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    overflow: hidden; 
+    --size71width: 71.428571vw;
+    --size71height: 71.428571vh;
+    --size42width: 42.857143vw;
+    --size42height: 42.857143vh;
+    --size14width: 14.2857vw;
+    --size14height: 14.2857vh;
+    --blackline: 2.57082vw;
+    --whiteline: 1.45782vw;
+    --blackhalf: 1.28541vw;
+    --tinysquareheight: 7.14285716667vh;
+    --tinysquarewidth: 7.14285716667vw;
+}
+
+.page{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.box-1 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border:.25px solid rgb(150, 150, 150);
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
+.box-2 {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin-top: var(--size14height);
+    margin-left: var(--size14width);
+    background-image: url(../img/texture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box-3 {
+    position: absolute;
+    background-color: rgb(147, 141, 141);
+    width: var(--size14width);
+    height: var(--size14height);
+    margin-top: calc(var(--size14height)*2);
+    margin-left: calc(var(--size14width)*2);
+    background-image: url(../img/texture2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+

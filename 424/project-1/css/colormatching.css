@@ -57,7 +57,7 @@ html, body {
     width: var(--size42width);
     height: var(--size42height);
     opacity: 0;
-    object-fit: fill;
+    object-fit:cover;
     
 }
 
@@ -76,7 +76,7 @@ html, body {
 
 /* color1 top left */
 #box1, #box2, #box7, #box8{
-    background-color: rgb(128, 130, 61);
+    background-color: rgb(216, 125, 59);
 }
 
 /* color2 top mid */
@@ -91,7 +91,7 @@ html, body {
 
 /* color4 mid left */
 #box13, #box14, #box19, #box20{
-    background-color: rgb(216, 125, 59);
+    background-color: rgb(128, 130, 61);
 }
 
 /* color5 mid mid */
