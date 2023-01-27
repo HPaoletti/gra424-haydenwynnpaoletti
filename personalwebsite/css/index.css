@@ -1,0 +1,277 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+html {
+    --gray: #444;
+    --gray-dark: #333;
+    --grey: #f2f2f2;
+    --blue: #001489;
+    /*   font-family: acumin-pro, sans-serif; 300 400 400 italic 600 700 */
+}
+*{
+  color: black;
+  font-family: acumin-pro, sans-serif;
+
+}
+body {
+  background-color: var(--grey);
+  line-height: 1;
+}
+
+.menu {
+  font-style: normal;
+  background: var(--grey);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: .50s ease;
+  transition: .50s ease;
+}
+
+.nav a{
+  font-family: acumin-pro, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px 0 0 -4px;
+  text-decoration: none;
+  display: block;
+}
+
+.office h2{
+  font-family: acumin-pro, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.office p{
+  font-family: acumin-pro, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.fa-download{
+  margin-left: 14px;
+  width: 10px;
+  height: 10px;
+}
+
+.name{
+  margin-top: 5%;
+}
+p,h2{
+  padding-top: 10px;
+}
+
+.fab{
+  padding-top: 1rem;
+  padding-right: 1rem;
+}
+.designer{
+  margin-bottom: 10px;
+}
+
+a:hover{
+  color: var(--blue);
+}
+i:hover{
+  color: var(--blue);
+}
+
+a.working{
+  text-decoration: line-through;
+}
+
+.resume{
+  cursor: copy;
+}
+
+.working{
+  cursor:wait;
+}
+
+.navButton {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  float: right;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+.navClass {
+  align-items: center;
+  justify-content: center;
+  background: var(--grey);
+  display: flex;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+.btn-big {
+  text-align: center;
+  color: var(--grey);
+  width: fit-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  font-size: .75rem;
+}
+
+.btn-primary {
+  background: var(--blue);
+}
+
+
+.btn-big:hover {
+  transform: scale(0.96);
+    color: white;
+}
+
+.btn-big:active {
+  transform: scale(0.8);
+}
+
+
+
+
+
+
+@media screen and (min-width: 737px) {
+  .nav a{
+    font-family: acumin-pro, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 10px 0 0 -4px;
+    display: block;
+  }
+
+.bg-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 652px;
+  height: 280px;
+  background: url(../img/HaydenPaolettiDesign.png) no-repeat 50%/contain;
+  opacity: 4%;
+  text-indent: 110%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: logo-data-v-603eefba 3s ease infinite alternate;
+  z-index: -1;
+}
+
+/* main menu */
+
+.menu{
+  font-style: normal;
+  background: var(--grey);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: .50s ease;
+  transition: .50s ease;
+}
+.nav{
+  color: #000;
+  font-size: 60px;
+  margin: 15px 0 0;
+  text-decoration: none;
+}
+.info{
+  width: 45%;
+  padding-top: 10px;
+    margin-left: 10%;
+}
+.menuInner{
+  color: #000;
+  max-width: 800px;
+  display: flex;
+  position: relative;
+  width: 100vw;
+  z-index: 2;
+}
+
+img.photoone{
+  max-height: 300px;
+  max-width: 200px;
+  float: left;
+  display: flex;
+}
+
+.text-container{
+  float: right;
+  display: flex;
+}
+.chat{
+  padding-left: 2rem;
+}
+.navButton {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  float: right;
+}
+.navClass {
+  align-items: center;
+  justify-content: center;
+  background: var(--grey);
+  display: flex;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+.btn-big {
+  text-align: center;
+  color: var(--grey);
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background: black;
+  box-shadow: 0px 3px 13px 3px rgba(0, 0, 0, 0.169);
+}
+
+
+.btn-big:hover {
+  transform: scale(0.96);
+    color: white;
+}
+
+.btn-big:active {
+  transform: scale(0.8);
+}
+}
+
