@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Index</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Load Styles -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+  <button class="navButton"><a class="btn-big btn-primary">menu</a></button>
+<nav class="navClass">
+  <div class="menu">
+    <div class="menuInner">
+      <span class="nav">
+        <a href="project-list.html" title="Projects">Projects</a>
+        <a href="about.html" title="About Me">About Me</a>
+        <a  href="#" class="working" title="Under Construction">Journal</a>
+        <a href="resume.html" title="View My Resumé">Resumé</a>
+        <!-- <a download href="img/Hayden-Wynn-Paoletti-Resume.pdf" class="resume" title="Download my Resumé">Resumé</a> -->
+        <a href="#" class="working" title="Under Construction">Get In Touch</a>
+      </span>
+      <div class="info">
+        <div class="office">
+          <h2 class="name">Hayden Wynn Paoletti</h2>
+          <p class="designer">ASU VCD Graphic Designer</p>
+          <p class="address">2525 W Barbie Ln <br> 85085 Phoenix, AZ</p>
+          <p class="tele">Tel +1 602 568 2200</p>
+          <p class="tele designer">hpaoletti11@gmail.com</p>
+          <h2 class="head">My Links</h2>
+          <div class="social">
+            <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/HaydenPaoletti" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.behance.net/haydenpaoletti" target="_blank"><i class="fab fa-behance"></i></a>        
+            <a href="https://www.linkedin.com/in/hayden-paoletti-633ab616b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="bg-logo"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+ <title>Adobe Acrobat Services PDF Embed API Sample</title>
+ <meta charset="utf-8"/>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+ <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body style="margin: 0px">
+ <div id="adobe-dc-view"></div>
+ <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+ <script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function()
+    {
+        var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
+        adobeDCView.previewFile(
+       {
+          content:   {location: {url: "https://documentservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
+          metaData: {fileName: "Bodea Brochure.pdf"}
+       });
+    });
+ </script>
+
+    <!-- Load Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
