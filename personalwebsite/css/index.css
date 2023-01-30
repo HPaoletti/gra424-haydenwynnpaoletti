@@ -1,13 +1,12 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 html {
-    --gray: #444;
     --gray-dark: #333;
-    --grey: #f2f2f2;
-    --blue: #001489;
+    --grey: #000000;
+    --blue: #95ff00;
     /*   font-family: acumin-pro, sans-serif; 300 400 400 italic 600 700 */
 }
 *{
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: acumin-pro, sans-serif;
 
 }
