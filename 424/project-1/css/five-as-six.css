@@ -100,7 +100,7 @@ html, body {
 #box20, #box21,
 #box16, #box17,
 #box22, #box23{
-    background-color: rgb(111, 83, 97);
+    background-color: #8E7074;
 }
 
 /* 3 */
@@ -112,6 +112,15 @@ html, body {
 #box34, #box35, #box36{
     background-color: rgb(247, 147, 29);
 }
+
+#box3, #box9, #box15, #box21, #box27, #box33{
+    background-color: rgb(22, 56, 96);
+}
+/* 5 */
+#box4, #box10, #box16, #box22, #box28, #box34{
+    background-color: rgb(251, 188, 96);
+}
+
 
 /* when hover */
 
@@ -129,7 +138,7 @@ html, body {
 #box020, #box021,
 #box016, #box017,
 #box022, #box023{
-    background-color: rgb(111, 83, 97);
+    background-color: #8E7074;
 }
 
 /* 3 */
@@ -145,13 +154,6 @@ html, body {
 /* overwrite flaps */
 /* code written by Hayden Paoletti dont steal my shit. */
 /* 4 */
-#box03, #box09, #box015, #box021, #box027, #box033{
-    background-color: rgb(22, 56, 96);
-}
-/* 5 */
-#box04, #box010, #box016, #box022, #box028, #box034{
-    background-color: rgb(251, 188, 96);
-}
 
 
 
