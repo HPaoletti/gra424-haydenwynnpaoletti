@@ -97,13 +97,13 @@ html, body {
 /* 2 */
 #box14, #box15,
 #box20, #box21{
-    background-color: #917B7B;
+    background-color: #65475D;
 }
 
 /* 3 */
 #box16, #box17,
 #box22, #box23{
-    background-color: #AE9D8E;
+    background-color: #BDAD97;
 }
 /* 4 */
 #box4, #box5, #box6, 
@@ -115,6 +115,14 @@ html, body {
     background-color: rgb(252, 245, 179);
 }
 
+
+#box3, #box9, #box15, #box21, #box27, #box33{
+    background-color: rgb(73, 20, 73);
+}
+/* 4 */
+#box4, #box10, #box16, #box22, #box28, #box34{
+    background-color: rgb(252, 245, 179);
+}
 /* when hover */
 
 /* 1 */
@@ -129,12 +137,13 @@ html, body {
 /* 2 */
 #box014, #box015,
 #box020, #box021{
-    background-color: #917B7B;
+    background-color: #65475D;
 }
 /* 3 */
 #box016, #box017,
 #box022, #box023{
-    background-color: #AE9D8E;}
+    background-color: #BDAD97;
+}
 /* 4 */
 #box04, #box05, #box06, 
 #box010, #box011, #box012, 
@@ -147,13 +156,6 @@ html, body {
 
 /* overwrite flaps*/
 /* 1 */
-#box03, #box09, #box015, #box021, #box027, #box033{
-    background-color: rgb(73, 20, 73);
-}
-/* 4 */
-#box04, #box010, #box016, #box022, #box028, #box034{
-    background-color: rgb(252, 245, 179);
-}
 
 
 

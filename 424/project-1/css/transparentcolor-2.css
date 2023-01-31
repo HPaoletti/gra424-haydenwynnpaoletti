@@ -66,7 +66,10 @@ html, body {
 
 /* color on top */
 #box15, #box16, #box21, #box22{
-    background-color: #B15F5F;
+    /* background-color: #B15F5F;  */
+    background-color: #AB625F; 
+
+    /*  */
 }
 
 /* color 2*/
