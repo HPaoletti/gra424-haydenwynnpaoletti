@@ -11,56 +11,82 @@
   <!-- Load Styles -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
+  <link href="css/hamburgers.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <button class="navButton"><a class="btn-big btn-primary">menu</a></button>
-<nav class="navClass">
-  <div class="menu">
-    <div class="menuInner">
-      <span class="nav">
-        <a href="project-list.html" title="Projects">Projects</a>
-        <a href="about.html" title="About Me">About Me</a>
-        <a  href="#" class="working" title="Under Construction">Journal</a>
-        <a href="resume.html" title="View My Resumé">Resumé</a>
-        <!-- <a download href="img/Hayden-Wynn-Paoletti-Resume.pdf" class="resume" title="Download my Resumé">Resumé</a> -->
-        <a href="#" class="working" title="Under Construction">Get In Touch</a>
-      </span>
-      <div class="info">
-        <div class="office">
-          <h2 class="name">Hayden Wynn Paoletti</h2>
-          <p class="designer">ASU VCD Graphic Designer</p>
-          <p class="address">2525 W Barbie Ln <br> 85085 Phoenix, AZ</p>
-          <p class="tele">Tel +1 602 568 2200</p>
-          <p class="tele designer">hpaoletti11@gmail.com</p>
-          <h2 class="head">My Links</h2>
-          <div class="social">
-            <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/HaydenPaoletti" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.behance.net/haydenpaoletti" target="_blank"><i class="fab fa-behance"></i></a>        
-            <a href="https://www.linkedin.com/in/hayden-paoletti-633ab616b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <div class="hamburger hamburger--spin" tabindex="0"
+     aria-label="Menu" role="button" aria-controls="navigation">
+  <div class="hamburger-box">
+    <div class="hamburger-inner"></div>
+  </div>
+</div>
+<nav id="navigation">
+  <!--navigation goes here-->
+
+  <nav class="navClass">
+    <div class="menu">
+      <div class="menuInner">
+        <span class="nav">
+          <a href="project-list.html" title="Projects">Projects</a>
+          <a href="about.html" title="About Me">About Me</a>
+          <a  href="#" class="working" title="Under Construction">Journal</a>
+          <a href="resume.html" title="View My Resumé">Resumé</a>
+          <!-- <a download href="img/Hayden-Wynn-Paoletti-Resume.pdf" class="resume" title="Download my Resumé">Resumé</a> -->
+          <a href="#" class="working" title="Under Construction">Get In Touch</a>
+        </span>
+        <div class="info">
+          <div class="office">
+            <h2 class="name">Hayden Wynn Paoletti</h2>
+            <p class="designer">ASU VCD Graphic Designer</p>
+            <p class="address">2525 W Barbie Ln <br> 85085 Phoenix, AZ</p>
+            <p class="tele">Tel +1 602 568 2200</p>
+            <p class="tele designer">hpaoletti11@gmail.com</p>
+            <h2 class="head">My Links</h2>
+            <div class="social">
+              <a href="https://www.instagram.com/haydenpaoletti/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/HaydenPaoletti" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.behance.net/haydenpaoletti" target="_blank"><i class="fab fa-behance"></i></a>        
+              <a href="https://www.linkedin.com/in/hayden-paoletti-633ab616b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="bg-logo"></div>
           </div>
-          <div class="bg-logo"></div>
         </div>
       </div>
     </div>
-  </div>
+  </nav>
+
 </nav>
 
-<div class="selectedworks">
-  <a href="" title="Projects">Project-1</a>
-  <a href="" title="Projects">Project-2</a>
-  <a href="" title="Projects">Project-3</a>
-</div>
 
-<!--
-want project names in list. 
+
+<section>
+  <ul class="selectedworks">
+
+  <a class="link typer-component" href="">
+    <span class="index">000</span>
+    <span class="title">Primordial Soup</span>
+  </a>
+  <a class="link typer-component" href="">
+    <span class="index">000</span>
+    <span class="title">Primordial Soup</span>
+  </a>
+  <a class="link typer-component" href="">
+    <span class="index">000</span>
+    <span class="title">Primordial Soup</span>
+  </a>
+
+
+  </ul>
+</section>
+
+<!-- want project names in list. 
 descriptions for each design 
 a photo or video
-then clickable so that they can explore more.
--->
+then clickable so that they can explore more. -->
+
 
     <!-- Load Scripts -->
     <script src="js/jquery-3.6.0.min.js"></script>
