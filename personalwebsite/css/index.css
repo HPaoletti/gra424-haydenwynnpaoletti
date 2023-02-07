@@ -111,20 +111,37 @@ a.working{
 /* end of index */
 
 .selectedworks{
+  align-items: center;
+  justify-content: center;
   display: flex;
-
+  flex-direction: column;
+  padding: 0;
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 
 
-.selectedworks li{
+.selectedworks .link{
   list-style: none;
-  padding-top: 10%;
+  padding-top: 1.5vw;
   font-family: acumin-pro, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-/* mobile first */
+.selectedworks:hover{
+  color: var(--blue);
+}
+.selectedworks .link .index{
+  text-decoration: none;
+  
+}
+/* mobile specific code */
 @media screen and (min-width: 737px) {
   .nav a{
     font-family: acumin-pro, sans-serif;

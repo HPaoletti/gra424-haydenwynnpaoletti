@@ -9,5 +9,5 @@ $hamburger.on("click", function() {
 
 
 $(".hamburger").click(function () {
-  $(".navClass").fadeToggle( 500, "swing");
+  $(".navClass").fadeToggle( 200, "swing");
 })
