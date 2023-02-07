@@ -12,7 +12,7 @@ body{
   
   .square {
     display: flex;
-    background:red;
+    background:rgb(0, 0, 0);
     width: 71.428571vw;
     height: 71.428571vh;
     margin:auto;
