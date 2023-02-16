@@ -36,6 +36,8 @@ html, body {
     position: absolute;
     width: var(--size42width);
     height: var(--size42height);
+    margin-left: 14.2857vw;
+    margin-top: 14.2857vh;
 }
 
 .step1{
@@ -67,7 +69,11 @@ html, body {
 
     clip-path: inset(14.285714vh 14.285714vw 14.285714vh 14.285714vw);
 
+    animation: crescendo 10s alternate infinite ease-in;
+    animation-delay: 2s;
 }
+
+
 
 .step2{
     display: flex;
@@ -104,7 +110,11 @@ html, body {
 
 clip-path: inset(0 10.14vw 0 10.14vw);
     /* 28.571428vw */
+    animation: crescendo 10s alternate infinite ease-in;
+    animation-delay: 4s;
 }
+
+
 
 .step3{
     display: flex;
@@ -135,8 +145,11 @@ clip-path: inset(0 10.14vw 0 10.14vw);
     margin-top: var(--size14height);
 
     clip-path: inset(14.285714vh 14.285714vw 14.285714vh 14.285714vw);
-
+    animation: crescendo 10s alternate infinite ease-in;
+    animation-delay: 6s;
 }
+
+
 
 
 .step4{
@@ -162,26 +175,8 @@ clip-path: inset(0 10.14vw 0 10.14vw);
 
 /* end of step 4 */
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: var(--size14width);
-    height: var(--size14height);
-
+@keyframes crescendo {
+    100% {transform: scale(1);}
+    0%   {transform: scale(.0);}
+    100% {transform: scale(1);}
   }
-  
-  .element-to-scale {
-    width: 200px;
-    height: 200px;
-    transform: scale(1);
-    transform-origin: center;
-    transform: scale(0);
-    transition: transform 1s ease;
-    transform-origin: center;
-  }
-  
-  .scale-up {
-    transform: scale(1);
-  }
-
