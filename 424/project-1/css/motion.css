@@ -146,7 +146,6 @@ html, body {
     margin-left: var(--blackhalf);
     opacity: 0;
     animation: 4s linear 6s forwards alternate step4;
-
 }
 
 #lineleft{
